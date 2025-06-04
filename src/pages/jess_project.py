@@ -36,12 +36,12 @@ def show():
     st.subheader("⭐ Key Features")
     
     features = [
-        "**AI-Driven Case Consultations**: Intelligent analysis and recommendations for complex educational psychology cases",
-        "**Automated Report Generation**: Multi-section reports that meet statutory assessment requirements",
-        "**Professional Document Exports**: Clean, professional formatting suitable for official use",
-        "**Persistent Data Storage**: SQLite integration ensures secure data retention across sessions",
-        "**Collaborative Workflow**: Designed to support team-based assessment processes",
-        "**User-Friendly Interface**: Intuitive Streamlit interface designed for professional use"
+        "**AI-Driven Case Consultations** - Intelligent analysis and recommendations for complex educational psychology cases",
+        "**Automated Report Generation** - Multi-section reports that meet statutory assessment requirements",
+        "**Professional Document Exports** - Clean, professional formatting suitable for official use",
+        "**Persistent Data Storage** - SQLite integration ensures secure data retention across sessions",
+        "**Collaborative Workflow** - Designed to support team-based assessment processes",
+        "**User-Friendly Interface** - Intuitive Streamlit interface designed for professional use"
     ]
     
     for feature in features:

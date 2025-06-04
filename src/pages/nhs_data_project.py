@@ -36,12 +36,12 @@ def show():
     st.subheader("⭐ Key Capabilities")
     
     capabilities = [
-        "**Comprehensive Drug Search**: Search across multiple open and closed-source pharmacy databases",
-        "**Usage Trend Monitoring**: Track primary care prescribing patterns and identify emerging trends",
-        "**Biosimilar Intelligence**: Identify upcoming biosimilar opportunities for cost optimization",
-        "**AI-Driven Cost Analysis**: Generate detailed cost-effectiveness reports using advanced AI",
-        "**Interactive Visualizations**: Dynamic charts and graphs for data exploration",
-        "**Export Functionality**: Professional reports and visuals ready for stakeholder presentation"
+        "**Comprehensive Drug Search** - Search across multiple open and closed-source pharmacy databases",
+        "**Usage Trend Monitoring** - Track primary care prescribing patterns and identify emerging trends",
+        "**Biosimilar Intelligence** - Identify upcoming biosimilar opportunities for cost optimization",
+        "**AI-Driven Cost Analysis** - Generate detailed cost-effectiveness reports using advanced AI",
+        "**Interactive Visualizations** - Dynamic charts and graphs for data exploration",
+        "**Export Functionality** - Professional reports and visuals ready for stakeholder presentation"
     ]
     
     for capability in capabilities:

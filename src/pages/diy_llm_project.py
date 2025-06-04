@@ -36,11 +36,11 @@ def show():
     st.subheader("🏆 Key Achievements")
     
     achievements = [
-        "**From-Scratch Implementation**: Built every transformer component using pure PyTorch - self-attention, positional encoding, feed-forward networks",
-        "**Training Pipeline**: Engineered complete training infrastructure with adaptive learning rate scheduling, checkpointing, and evaluation metrics",
-        "**Interactive Visualization**: Created intuitive Streamlit app that visualizes attention patterns, token probabilities, and training progression",
-        "**Production Deployment**: Full MLOps pipeline deployed to AWS with serverless architecture using Lambda, API Gateway, and Terraform IaC",
-        "**Educational Value**: Demonstrates the evolution of language understanding as the model progresses through training"
+        "**From-Scratch Implementation** - Built every transformer component using pure PyTorch - self-attention, positional encoding, feed-forward networks",
+        "**Training Pipeline** - Engineered complete training infrastructure with adaptive learning rate scheduling, checkpointing, and evaluation metrics",
+        "**Interactive Visualization** - Created intuitive Streamlit app that visualizes attention patterns, token probabilities, and training progression",
+        "**Production Deployment** - Full MLOps pipeline deployed to AWS with serverless architecture using Lambda, API Gateway, and Terraform IaC",
+        "**Educational Value** - Demonstrates the evolution of language understanding as the model progresses through training"
     ]
     
     for achievement in achievements:
