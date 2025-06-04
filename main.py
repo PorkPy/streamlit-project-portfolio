@@ -1,6 +1,13 @@
 import streamlit as st
-from src.pages import home, about, projects, live_apps, skills, contact
-from src.utils.styling import load_css
+import sys
+import os
+
+# Add the src directory to Python path
+sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
+
+# Now import the modules
+from pages import home, about, projects, live_apps, skills, contact
+from utils.styling import load_css
 
 # Page configuration
 st.set_page_config(
